@@ -31,4 +31,13 @@
     <ProjectReference Include="..\..\src\Avalonia.ThemeManager\Avalonia.ThemeManager.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="Avalonia" Version="11.0.5" />
+    <PackageReference Update="Avalonia.Desktop" Version="11.0.5" />
+    <PackageReference Update="Avalonia.Diagnostics" Version="11.0.5" />
+    <PackageReference Update="Avalonia.Fonts.Inter" Version="11.0.5" />
+    <PackageReference Update="Avalonia.Themes.Fluent" Version="11.0.5" />
+    <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
+  </ItemGroup>
+
 </Project>

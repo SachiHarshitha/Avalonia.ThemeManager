@@ -20,5 +20,13 @@
   <Import Project="..\..\build\Avalonia.Themes.Fluent.props" />
   <Import Project="..\..\build\Avalonia.Themes.Simple.props" />
   <Import Project="..\..\build\CommunityToolkit.Mvvm.props" />
+  <ItemGroup>
+    <PackageReference Update="Avalonia" Version="11.0.5" />
+    <PackageReference Update="Avalonia.Themes.Fluent" Version="11.0.5" />
+    <PackageReference Update="Avalonia.Themes.Simple" Version="11.0.5" />
+    <PackageReference Update="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+  </ItemGroup>
 
 </Project>

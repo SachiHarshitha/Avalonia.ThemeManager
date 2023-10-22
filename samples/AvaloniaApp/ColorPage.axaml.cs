@@ -52,9 +52,12 @@ public partial class ColorPage : UserControl
                 var color = change.GetNewValue<Color>();
                 border.Background = new ImmutableSolidColorBrush(color);
 
-                if (Application.Current is { })
+                if (Application.Current is { } && Key != null)
                 {
-                    Application.Current.Resources[Key] = color;
+                    if(!Application.Current.Resources.ContainsKey(Key))
+                        Application.Current.Resources.Add(Key, Color);
+                    else
+                        Application.Current.Resources[Key] = color;
                 }
 
                 if (DataContext is ColorResource colorResource)
