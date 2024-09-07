@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;net461;net6.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net481;net6.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -21,12 +21,12 @@
   <Import Project="..\..\build\Avalonia.Themes.Simple.props" />
   <Import Project="..\..\build\CommunityToolkit.Mvvm.props" />
   <ItemGroup>
-    <PackageReference Update="Avalonia" Version="11.0.5" />
-    <PackageReference Update="Avalonia.Themes.Fluent" Version="11.0.5" />
-    <PackageReference Update="Avalonia.Themes.Simple" Version="11.0.5" />
-    <PackageReference Update="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Update="Avalonia" Version="11.1.3" />
+    <PackageReference Update="Avalonia.Themes.Fluent" Version="11.1.3" />
+    <PackageReference Update="Avalonia.Themes.Simple" Version="11.1.3" />
+    <PackageReference Update="CommunityToolkit.Mvvm" Version="8.2.2" />
     <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
-    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
